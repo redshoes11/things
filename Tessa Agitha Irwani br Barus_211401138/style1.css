@@ -1,0 +1,301 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: candara, sans-serif;
+}
+
+.case {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: goudy old style;
+    color: #781D42;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a { 
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: #A3423C;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+
+.kolom {
+    margin: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .desc {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Lucida Sans;
+    color: #781D42;
+    text-align: center;
+    content: normal;
+    margin-top: 200px;
+}
+
+#home {
+    margin: auto;
+    display: flex;
+    margin-bottom: 10px;
+}
+#home img {
+    margin-top: 50px;
+}
+
+#oncinema img {
+    width: 422px;
+    height: 625px;
+    margin-top: 50px; 
+}
+
+h1 {
+    font-size: 60px;
+    font-family: perpetua;
+    margin-top: 150px;
+    font-weight: bold;
+    color: #A3423C;
+    font-style: italic;
+}
+
+.kolom h2 {
+    font-size: 30px;
+}
+
+section .kolom p {
+    font-size: 20px;
+}
+
+.button {
+    background: #F0D290;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #781D42;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.button:hover {
+    background: #DE834D ;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+#upcoming img {
+    width: 500px;
+    height: 741px;
+    margin-top: 50px; 
+}
+
+.form a {
+    text-decoration: none;
+}
+
+body.form {
+    background: #A3423C;
+    background-repeat: no-repeat;
+}
+
+.form label {
+    font-size: 11pt;
+}
+
+#forgot-pass {
+    color: black; 
+    font-size: 10pt;
+    margin-top: 3px;
+    text-align: right;
+}
+
+#card {
+    background: #F0D290 ;
+    border-radius: 5px;
+    height: 410px;
+    margin: 6rem auto 8.1rem auto;
+    width: 320px;
+}
+
+#card-content {
+    padding: 12px 44px;
+    font-size: 10pt;
+}
+
+#card-title {
+    font-size: 15pt;
+    font-family: goudy old style;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+#back {
+    color: #781D42;
+    font-size: 10pt;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.submit-btn {
+    background: #A3423C;
+    border-radius: 21px;
+    border: none;
+    box-shadow: 0px 1px 8px #F0D290;
+    cursor: pointer;
+    color: white;
+    height: 42.3px;
+    margin: 0 auto;
+    margin-top: 20px;
+    transition: 0.25s;
+    width: 153px;
+}
+
+.submit-btn:hover {
+    box-shadow: 0px 1px 18px #ffffff ;
+}
+
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-border {
+    margin-top: 15px;
+    width: 100%;
+    background: #D06224;
+}
+
+.form-content {
+    background: #FFE6BC;
+    border: none;
+    margin-left: 0px;
+    margin-top: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px ;
+    padding-left: 2px;
+    border-radius: 10px;
+}
+
+.underline-title {
+    background: -webkit-linear-gradient(right, #DE834D, #D06224 );
+    height: 2px;
+    margin: -1.1rem auto 0 auto;
+    width: 89px;
+}
+
+#crd {
+    background: #F0D290 ;
+    border-radius: 5px;
+    height: 600px;
+    margin: 6rem auto 8.1rem auto;
+    width: 420px;
+}
+
+label {
+    word-spacing: 1pt;
+    font-weight: bold;
+}
+
+.logo img {
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+#contact {
+    background: grey ;
+    padding: 40px 0px 40px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 40px;
+
+}
+
